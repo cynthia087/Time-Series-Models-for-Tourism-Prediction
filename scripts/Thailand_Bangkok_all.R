@@ -3,7 +3,7 @@
 ###########################
 
 # Read data
-thailand.data <- read.csv("thailand_tourism_data.csv")
+thailand.data <- read.csv("thailand.csv")
 
 # Data preparation: Filter to select variables of interest
 thailand_occupancy.data <- subset(thailand.data, thailand.data$variable == "occupancy_rate")
